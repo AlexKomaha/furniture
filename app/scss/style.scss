@@ -181,6 +181,7 @@
   padding-top: 40px;
   box-shadow: -2px 3px 17px 0px #000;
   transition: all .5s;
+  z-index: 2;
   &.rightside-menu--close {
     transform: translateX(500%);
   }
@@ -225,6 +226,6 @@
     margin-bottom: 50px;
   }
   &__images {
-    max-width: 285px;
+    max-width: 485px;
   }
 }
