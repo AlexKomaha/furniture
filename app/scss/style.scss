@@ -247,6 +247,8 @@
 .breadcrumbs {
   background: rgba(#dfdfdf, .5);
   padding: 13px 14px;
+  position: relative;
+  z-index: 999;
   &__list {
     display: flex;
   }
@@ -725,4 +727,8 @@
   &__item {
     margin: 0 auto;
   }
+}
+
+.map {
+  margin-bottom: 50px;
 }
