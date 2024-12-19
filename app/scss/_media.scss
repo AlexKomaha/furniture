@@ -21,9 +21,13 @@
 @media (max-width: 540px) {
   .logo {
     order: -1;
+    position: relative;
+    z-index: 12;
   }
   .header {
     &__btn-menu {
+      position: relative;
+      z-index: 12;
       display: block;
       background-color: transparent;
       border: none;
@@ -50,7 +54,7 @@
     position: relative;
     z-index: 11;
     text-align: center;
-    transform: translateY(-250px);
+    transform: translateY(-350px);
     transition: all .5s;
     &--open {
       transform: translateY(30px);
