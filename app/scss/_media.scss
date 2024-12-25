@@ -368,6 +368,16 @@
       line-height: 38px;
     }
   }
+  .blog-one {
+    &__links {
+      padding: 30px 0;
+    }
+    &__link {
+      span {
+        display: none;
+      }
+    }
+  }
 }
 
 @media (max-width: 390px) {
@@ -394,6 +404,9 @@
   }
   .slick-dots li {
     margin: 0 1px;
+  }
+  .blog-one__item blockquote {
+    padding: 0 20px;
   }
 }
 
